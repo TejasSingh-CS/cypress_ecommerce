@@ -1,4 +1,4 @@
-## Project Name: cypress_ecommerce
+# Project Name: cypress_ecommerce
 This project will automate the process of searching for products, adding items to the cart, and navigating to the payment gateway screen on e-commerce websites like Amazon.in and Flipkart.in using Cypress.
 
 ### Project Overview
@@ -19,24 +19,19 @@ To run this project on your machine, please make sure you have the following ins
 1. Clone the repository
 
 2. Open your terminal and run:
-git clone https://github.com/your-username/cypress_ecommerce.git
+> git clone https://github.com/your-username/cypress_ecommerce.git
 
 3. Move into project directory
-cd cypress_ecommerce
+> cd cypress_ecommerce
 
 4. Dependencies Setup - Install all the dependencies using following command:
-npm install
+> npm install
 
-5. To open Cypress To open Cypress, run:
-npx cypress open
-
-Above command will open the Cypress test runner.
+5. To open Cypress To open Cypress, run, below command will open the Cypress test runner.
+> npx cypress open
 
 6. Run test - To run test suite, simply:
-Open the E2E Testing in Cypress Dashboard
-
-Choose browser of your choice; here, Chrome.
-Click on the test file to run it, or run all tests at once.
+Open the E2E Testing in Cypress Dashboard. Choose browser of your choice; here, Chrome. Click on the test file to run it, or run all tests at once.
 
 ### Project Structure
 The folders and files of importance in this project:
