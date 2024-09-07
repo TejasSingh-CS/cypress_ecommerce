@@ -34,14 +34,39 @@ To run this project on your machine, please make sure you have the following ins
 Open the E2E Testing in Cypress Dashboard. Choose browser of your choice; here, Chrome. Click on the test file to run it, or run all tests at once.
 
 ### Project Structure
-The folders and files of importance in this project:
+cypress/: This is the root directory for all Cypress-related files and folders.
 
-* cypress/: All Cypress-related files and folders reside here.
-* cypress/e2e/: The test files doing the automation magic are hosted here.
-* cypress/fixtures/: Test data is kept here. In other words, product search terms.
-* cypress/support/: All the helper functions and support files are placed here.
-* package.json: This contains most of the metadata relevant to the project, including dependencies.
-* README.md: Documentation for the project - that's this.
+#### cypress/e2e/: Contains test files that perform automation tests.
+* amazonTests/amazonCase.spec.cy.js: This file includes test cases specific to Amazon's website or features.
+* backendTests/restAPICases.spec.cy.js: This file contains API testing cases for backend services.
+
+#### cypress/fixtures/: Stores test data in JSON format, which can be used in your tests.
+* product_data.json: Holds data related to products used in frontend tests, especially from amazonCase.spec.cy.js.
+* credentials.json: Stores credentials or any sensitive data needed for tests.
+
+#### cypress/pageObjects/: Contains page object files, which follow the Page Object Model design pattern.
+* AmazonSearchPage.js: Contains methods and selectors for interacting with the Amazon search page.
+* ProductPage.js: Contains methods and selectors for interacting with the product detail page.
+
+#### cypress/reports/: This folder holds the generated reports.
+* html/: Contains HTML reports generated from test runs.
+
+#### cypress/support/: Includes support files and helper functions.
+* commands.js: Defines custom commands that can be used across test files.
+* e2e.js: Contains global configuration and behavior for Cypress, such as hooks or custom setups.
+
+#### node_modules/: Contains all the project’s npm dependencies.
+
+#### .gitignore: Lists files and folders to be ignored by Git, preventing them from being tracked in version control.
+
+#### cypress.config.js: Cypress configuration file where you can set up various options for Cypress testing.
+
+#### package-lock.json: Ensures consistent versions of dependencies are installed.
+
+#### package.json: Lists project dependencies, scripts, and metadata.
+
+#### README.md: Provides documentation and an overview of the project.
+
 
 ### Amazon - Frontend Automation Cases
 ##### Case 1. Log in to Amazon
