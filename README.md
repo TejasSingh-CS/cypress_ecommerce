@@ -43,9 +43,15 @@ The folders and files of importance in this project:
 * package.json: This contains most of the metadata relevant to the project, including dependencies.
 * README.md: Documentation for the project - that's this.
 
-### Test Scenarios
-####<TestSuiteName>
-#####<TestCaseName>
+### Amazon - Frontend Automation
+#### Log in to Amazon
+##### Search for "Titan watch" & Store Product Information
+##### Product Add to Cart & Payment Gateway
 
+### Mochawesome Reporte
+> npm i --save-dev cypress-mochawesome-reporter
+
+for more info follow this url https://www.npmjs.com/package/cypress-mochawesome-reporter
+After each execution, a report will be generated at this path: '\cypress tutorial\cypress_ecommerce\cypress\reports'. If any test cases fail, a video and a screenshot will also be generated in the same path.
 
 In case any of the items are not clear or if you want more information about something, please feel free to get in touch with me.
