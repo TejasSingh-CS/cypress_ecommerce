@@ -22,13 +22,15 @@ module.exports = defineConfig({
     env: {
       testIsolation: true
     },
-    video : true,
     fixturesFolder: 'cypress/fixtures',
     screenshotsFolder: 'cypress/screenshots',
     videosFolder: 'cypress/videos',
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 60000,
-    videoOnFailOnly: true
+    videoOnFailOnly: true,
+    videoUploadOnPasses: false,
+    video: false, // enable video recording
+    videoCompression: 32, // video compression to save space (optional)
   },
 });
 

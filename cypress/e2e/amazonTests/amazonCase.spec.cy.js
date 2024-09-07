@@ -62,6 +62,7 @@ describe('Amazon - Frontend Automation', () => {
         cy.log(`  URL: ${product.url}`);
       });
 
+      //Download product details in json file
       cy.writeFile('cypress/fixtures/product_data.json', products);
     });
   });
