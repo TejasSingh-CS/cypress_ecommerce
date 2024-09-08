@@ -107,4 +107,21 @@ After each execution, a report will be generated at this path: '\cypress tutoria
 ### Backend Execution Headless Command
 > npx cypress run --spec "D:/Other/Tutorial/cypress tutorial/cypress_ecommerce/cypress/e2e/backendTests/restAPICases.spec.cy.js"
 
+### How to run ?
+Once repository is cloned then open in code editor and Install all the dependecies:
+> npm install
+
+To open Cypress To open Cypress, run, below command will open the Cypress test runner.
+> npx cypress open
+
+Run Headless browser to generate reports for fontend and backend.
+> npx cypress run
+
+Report will be displayed in the following location:
+* cypress tutorial\cypress_ecommerce\cypress\reports\html\index.html
+![image](https://github.com/user-attachments/assets/acb29f21-71da-4e39-b9d0-2dd386be1511)
+
+* Project Screenshot
+![image](https://github.com/user-attachments/assets/ae268629-9848-4eb8-bc1e-28d0ae7f3141)
+
 In case any of the items are not clear or if you want more information about something, please feel free to get in touch with me.
