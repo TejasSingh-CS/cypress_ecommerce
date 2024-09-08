@@ -28,8 +28,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 60000,
     videoOnFailOnly: true,
-    videoUploadOnPasses: false,
-    video: false, // enable video recording
+    video: true, // enable video recording
     videoCompression: 32, // video compression to save space (optional)
   },
 });

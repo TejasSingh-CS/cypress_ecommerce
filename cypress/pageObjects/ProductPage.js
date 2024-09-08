@@ -2,7 +2,7 @@
 class ProductPage {
     addToCart() {
         cy.get('#add-to-cart-button').should('exist').click();
-        cy.wait(3000);
+        cy.wait(5000);
     }
 
     proceedToCheckout() {

@@ -73,7 +73,7 @@ describe('Amazon - Frontend Automation', () => {
     amazonSearchPage.getProductList().should('exist');
     cy.wait(3000);
     amazonSearchPage.clickFirstProduct();
-    cy.wait(3000);   
+    cy.wait(5000);   
     productPage.addToCart();  
     productPage.skipWarranty();
     productPage.proceedToCheckout();
